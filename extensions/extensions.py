@@ -15,5 +15,5 @@ elif ext.endswith(".zip"):
     print("application/zip")
 elif ext.endswith(".bin"):
     print("application/octet-stream")
-elif ext.endswith(""):
+else:
     print("application/octet-stream")
