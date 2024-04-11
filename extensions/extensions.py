@@ -1,3 +1,5 @@
+#This program finds the filetype using.file type
+
 ext=str.strip(str.lower(input("File name: ")))
 if ext.endswith(".gif"):
     print("image/gif")
